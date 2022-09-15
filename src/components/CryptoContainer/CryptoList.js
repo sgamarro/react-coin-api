@@ -4,12 +4,16 @@ const CryptoList = (props) => {
   return (
     <tbody>
       <tr>
-        <td>1</td>
-        <td>Bitcoin</td>
-        <td>1B</td>
-        <td>1B</td>
-        <td>3B</td>
-        <td>-8%</td>
+        <td>{props.rank}</td>
+
+        <td>
+          <img style={{ width: "20px" }} src={props.url} />
+          {props.name}
+        </td>
+        <td>{props.price}</td>
+        <td>{props.market}</td>
+        <td>{props.volume}</td>
+        <td>{props.change}</td>
       </tr>
     </tbody>
   );

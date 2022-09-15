@@ -1,17 +1,17 @@
 import React, { useRef } from "react";
 
 const CryptoFilter = (props) => {
-  const filter = useRef();
+  const filterValue = useRef();
 
   const filterInput = () => {
-    console.log(filter.current.value);
+    props.filter(filterValue.current.value);
   };
 
   return (
     <input
       type={"text"}
       placeholder="Search Coin"
-      ref={filter}
+      ref={filterValue}
       onChange={filterInput}
     />
   );
