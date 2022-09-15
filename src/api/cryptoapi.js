@@ -9,7 +9,7 @@ export const CryptoOptions = {
     offset: "0",
   },
   headers: {
-    "X-RapidAPI-Key": process.env.APP_API_KEY,
+    "X-RapidAPI-Key": "4d522b5fd2msh645bdcd96db5d69p1827c5jsn0c7541b74b3d",
     "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
   },
 };
