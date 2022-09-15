@@ -3,7 +3,7 @@ import CryptoFilter from "../CryptoFilter/CryptoFilter";
 import Card from "../UI/Card";
 import CryptoList from "./CryptoList";
 
-const CryptoContainer = () => {
+const CryptoContainer = (props) => {
   return (
     <Card>
       <CryptoFilter />
