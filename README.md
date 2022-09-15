@@ -10,3 +10,5 @@ only displays 50 crypto currency coins and its able to
 filter which coin the user wants to know about 
 so far it only does that but it has room to improve 
 
+feel free to let me know where I could improve or what else should
+I try to implement in this app. 
