@@ -1,0 +1,30 @@
+.content-container td {
+    width: 10rem;
+    padding: 1rem 0.2rem;
+}
+
+
+.rank {
+    text-align: center;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+
+.coin img {
+    width: 1.7rem;
+    margin-right: 1.2rem;
+}
+
+.red {
+    text-align: center;
+    color: red;
+}
+
+.green {
+    text-align: center;
+    color: green;
+}

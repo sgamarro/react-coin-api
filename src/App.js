@@ -13,7 +13,6 @@ function App() {
     );
 
     setCrypto(apiData.data.coins);
-    console.log(apiData.data.coins);
   };
 
   useEffect(() => {
@@ -22,7 +21,9 @@ function App() {
 
   return (
     <Fragment>
-      <CryptoContainer apiInfo={crypto} />
+      <section className="crypto-container">
+        <CryptoContainer apiInfo={crypto} />
+      </section>
     </Fragment>
   );
 }

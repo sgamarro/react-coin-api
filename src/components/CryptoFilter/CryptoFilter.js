@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import clases from "./CryptoFilter.module.css";
 
 const CryptoFilter = (props) => {
   const filterValue = useRef();
@@ -9,6 +10,7 @@ const CryptoFilter = (props) => {
 
   return (
     <input
+      className={clases.filter}
       type={"text"}
       placeholder="Search Coin"
       ref={filterValue}
